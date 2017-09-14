@@ -1,0 +1,272 @@
+/* Open Sans from Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i';
+/* Theme LESS assets */
+/* Colors */
+/* Fonts */
+/* Responsive */
+/* News */
+/* Hero */
+/* Grid */
+/* Navigation */
+/* Navigation */
+.inputs-style {
+  border-color: #c3c3c3;
+}
+.inputs-style:focus {
+  border-color: #111;
+}
+.hero {
+  background-color: #3a71bc;
+  background-image: url("../../../../base/images/background-tile.jpg");
+}
+.hero-search .image-credit {
+  color: #fff;
+}
+body {
+  background: #fff;
+  font-family: 'Noto Sans', sans-serif;
+}
+.site-footer {
+  background: #111;
+}
+.homepage .module-search .module-content {
+  background-color: #111;
+}
+.homepage .module-search .tags {
+  background-color: #3a71bc;
+}
+[role=main]:not(.hero),
+.main:not(.hero) {
+  background: #fff;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+  border-color: #111;
+}
+.pill {
+  background-color: #3a71bc;
+}
+.media-grid {
+  background-color: #f6f6f6;
+  border-color: #dddddd;
+}
+.account-masthead {
+  background-color: #111;
+}
+.account-masthead .account .notifications a span.badge {
+  background-color: #111;
+}
+.account-masthead .account ul li a {
+  color: #c3c3c3;
+}
+.account-masthead .account ul li a:hover {
+  background-color: #2b2b2b;
+}
+.masthead {
+  background: #fff;
+}
+.masthead a {
+  color: #111;
+}
+.masthead .btn-navbar {
+  background-color: #444;
+}
+.masthead .btn-navbar:hover,
+.masthead .btn-navbar:focus {
+  background-color: #111;
+}
+.btn-primary {
+  background-color: #111;
+}
+.btn-primary:hover {
+  background-color: #444;
+}
+.nav-main {
+  background-color: #111;
+}
+.nav-main .nav-collapse .nav > li a {
+  color: #fff;
+}
+.nav-main .nav a:hover,
+.nav-main .nav a:focus {
+  color: #fff;
+  background-color: #3a71bc;
+}
+.nav-main .nav a:hover:before,
+.nav-main .nav a:focus:before {
+  border-top: 17px solid #fff;
+  border-bottom: 17px solid #fff;
+  border-left: 6px solid #3a71bc;
+}
+.nav-main .nav .active a {
+  color: #fff;
+  background-color: #3a71bc;
+}
+.nav-main .nav .active a:before {
+  border-top: 17px solid #fff;
+  border-bottom: 17px solid #fff;
+  border-left: 6px solid #3a71bc;
+}
+.secondary .nav > li a:hover {
+  border-radius: 15px;
+}
+.secondary .nav > li a:hover,
+.secondary .nav > li a:focus {
+  color: #fff;
+  background-color: #3a71bc;
+}
+.secondary .nav > li a:hover:before,
+.secondary .nav > li a:focus:before {
+  border-top: 17px solid #fff;
+  border-bottom: 17px solid #fff;
+  border-left: 6px solid #3a71bc;
+}
+.nav-item.active a,
+.nav-aside.active a,
+.nav-item.active a:hover,
+.nav-aside.active a:hover,
+.nav-item.active a:focus,
+.nav-aside.active a:focus {
+  color: #fff;
+  background-color: #3a71bc;
+}
+.nav-item.active a:before,
+.nav-aside.active a:before,
+.nav-item.active a:hover:before,
+.nav-aside.active a:hover:before,
+.nav-item.active a:focus:before,
+.nav-aside.active a:focus:before {
+  border-top: 17px solid #fff;
+  border-bottom: 17px solid #fff;
+  border-left: 6px solid #3a71bc;
+}
+/* All modules */
+.module-heading {
+  background-color: #c3c3c3;
+}
+/* Search */
+.module-hero-search .search-input input {
+  border-color: #3a71bc;
+}
+.module-hero-search .search-input input:focus {
+  border-color: #111;
+}
+.module-hero-search .search-input button i {
+  color: #3a71bc;
+}
+/* Topics */
+.module-topics a {
+  color: #3a71bc;
+}
+.news-header {
+  color: #fff;
+  background-color: #111;
+}
+.news-header .btn:hover {
+  background-color: #fff;
+}
+.news-item {
+  color: #2b2b2b;
+  border: 1px solid #c3c3c3;
+}
+.news-item:hover,
+.news-item:focus {
+  box-shadow: 0 0 30px #c3c3c3;
+  color: #2b2b2b;
+}
+.add-dataset-modal {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translateX(-50%);
+  z-index: 1050;
+  display: none;
+}
+.add-dataset-modal-box {
+  display: table-cell;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border-radius: 6px;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  background-clip: padding-box;
+  outline: none;
+  text-align: center;
+}
+.add-dataset-modal-description {
+  margin-top: 30px;
+}
+.add-dataset-modal-description p {
+  font-weight: bold;
+}
+.add-dataset-modal-description ul {
+  text-align: left;
+}
+.add-dataset-modal .close {
+  font-size: 35px;
+  color: white;
+  position: relative;
+  top: -32px;
+}
+.add-dataset-modal-backdrop {
+  display: none;
+}
+#dataset-resources {
+  border: 1px solid #dddddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#dataset-resources h3,
+#dataset-resources .search-form {
+  display: inline;
+}
+.resource-list {
+  margin-top: 15px;
+}
+.search-giant.search-input button i:hover {
+  color: #111;
+}
+.simple-input .field .btn-search:hover {
+  color: #111;
+}
+#field-user-search {
+  border-color: #c3c3c3;
+}
+.search-icon-hover {
+  color: #111;
+}
+.organization-logos {
+  background-color: #dddddd;
+}
+.organization-logos figure figcaption {
+  color: #444;
+}
+.js .image-upload input[type=file] {
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+.nav-tabs .fa:last-child,
+.module-heading .fa:last-child,
+.btn .fa:last-child {
+  margin-right: 3px;
+}
+.resource-tracking-summary {
+  margin-top: -20px !important;
+  border-top: none !important;
+}
+/*# sourceMappingURL=inverness.css.map */
