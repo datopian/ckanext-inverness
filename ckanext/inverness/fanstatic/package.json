@@ -1,0 +1,11 @@
+{
+  "name": "ckanext-inverness",
+  "scripts": {
+    "watch": "less-watch-compiler less/ css/ inverness.less",
+    "less": "./node_modules/.bin/lessc less/inverness.less css/inverness.css"
+  },
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-watch-compiler": "^1.6.7"
+  }
+}
