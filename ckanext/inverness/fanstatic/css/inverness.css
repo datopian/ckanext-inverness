@@ -243,7 +243,14 @@ input[type="color"]:focus {
   color: #111;
 }
 #field-user-search {
-  border-color: #c3c3c3;
+  border-color: #111;
+}
+#field-sitewide-search {
+  border-color: #444;
+}
+#field-sitewide-search:hover,
+#field-sitewide-search:focus {
+  border-color: #111;
 }
 .search-icon-hover {
   color: #111;
