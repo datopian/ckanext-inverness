@@ -173,13 +173,13 @@ input[type="color"]:focus {
 }
 /* Search */
 .module-hero-search .search-input input {
-  border-color: #3a71bc;
-}
-.module-hero-search .search-input input:focus {
   border-color: #111;
 }
+.module-hero-search .search-input input:focus {
+  border-color: #3a71bc;
+}
 .module-hero-search .search-input button i {
-  color: #3a71bc;
+  color: #111;
 }
 /* Topics */
 .module-topics a {
